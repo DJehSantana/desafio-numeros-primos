@@ -1,0 +1,17 @@
+{
+  "name": "array-objetos",
+  "version": "1.0.0",
+  "description": "Exercicios",
+  "main": "array.js",
+  "scripts": {
+    "start": "node ./primos.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mathjs": "^11.5.0"
+  },
+  "devDependencies": {
+    "big-integer": "^1.6.51"
+  }
+}
