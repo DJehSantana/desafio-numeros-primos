@@ -1,21 +1,6 @@
 
 /*DESAFIO: Encontre pelo menos um número de 5, 10 e 21 dígitos 
 que seja primo dentro do número pi
-
- ALGORITMO
- PASSO 1 - pegar a parte decimal do número PI e atribuir a uma constante como String
- PASSO 2 - transformar a String em um array de vários números com a quantidade de dígitos especificada
- PASSO 3 - verificar a primalidade dos números do array utilizando uma lib como a big-integer
-      Como fazer para verificar a primalidade?
-      Importa a biblioteca e atribui a constante biginteger
-     
-      isPrime() - Método para verificar a primalidade
-      Retorna true se o número for primo, false caso contrário.        
-      Exemplo:
-      bigInt(5).isPrime() //output:true
-      bigInt(6).isPrime() //output:false
-
-PASSO 4 - adicionar os números cujo resultado for true a uma nova lista de numeros primos
 */
 
 //Importando bibliotecas
@@ -44,7 +29,7 @@ function construirLista(lista, quantidade) {
 function encontrarPrimos(listaOriginal, quantidade) {
     //método isPrime realiza a verificação se o numero é primo, caso seja retorna true
     //neste caso, quando o retorno é true o método filter adiciona o número ao novo array
-    const listaPrimos = listaOriginal.filter(numero => biginteger(numero).isPrime())
+    const listaPrimos = listaOriginal.filter(numero => biginteger(numero).isPrime());
 
     if (!listaPrimos.length) {
         console.log(`Não existem números primos de ${quantidade} digitos sequenciais nas primeiras 50 casas decimais de PI`);
