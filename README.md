@@ -14,7 +14,9 @@
 1. isPrime() - Método para verificar a primalidade - Retorna true se o número for primo, false caso contrário.        
       
 _Exemplo:_ <br>
-<code>bigInt(5).isPrime() //output:true<br>bigInt(6).isPrime() //output:false</code>
+<code>bigInt(5).isPrime() //output:true
+ bigInt(6).isPrime() //output:false
+</code>
 
 **Para ver a resolução do desafio:**  
 1. Realize um clone do repositório.
