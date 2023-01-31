@@ -1,5 +1,4 @@
-//encontre pelo menos um número de 5 dígitos que seja primo dentro do número pi
-//encontre pelo menos um número de 10 dígitos que seja primo dentro do número pi
+
 /*DESAFIO: Encontre pelo menos um número de 5, 10 e 21 dígitos 
 que seja primo dentro do número pi
 
